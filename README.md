@@ -6,9 +6,9 @@
 
 | 用途 | 地址 |
 | --- | --- |
-| 更新清单（已写进 APK 默认值，无需手填） | https://raw.githubusercontent.com/sushiguo/youyou/main/update.json |
-| 最新 APK | https://github.com/sushiguo/youyou/releases/latest/download/youyou-tv.apk |
-| 指定版本 APK | https://github.com/sushiguo/youyou/releases/download/v610282115/youyou-tv.apk |
+| 更新清单（已写进 APK 默认值，无需手填） | https://raw.githubusercontent.com/sushiguo/you-osc/main/update.json |
+| 最新 APK | https://github.com/sushiguo/you-osc/releases/latest/download/youyou-tv.apk |
+| 指定版本 APK | https://github.com/sushiguo/you-osc/releases/download/v610282239/youyou-tv.apk |
 
 `update.json` 描述的是平板版包名 `com.youyou.tvbox.osc`；版本号是 9 位 `6MMDDHHMM`。清单里的 `sha256`、`size` 与签名证书任一对不上，应用都不会安装，并会把具体原因显示出来。
 应用内查看或改地址：我的 → 模块管理 → 应用更新地址；留空即回到上面这个默认值。
@@ -19,20 +19,20 @@
 
 | 配置 | 内容 | 地址 |
 | --- | --- | --- |
-| ziyong-yuan.json | 自用源（点播 + 直播 + 搜索，本机原文件名「自用源」） | https://raw.githubusercontent.com/sushiguo/youyou/main/tvbox/own/ziyong-yuan.json |
-| ziyong-dancang.json | 自用单仓 | https://raw.githubusercontent.com/sushiguo/youyou/main/tvbox/own/ziyong-dancang.json |
-| ziyong-dancang2.json | 自用单仓 2 | https://raw.githubusercontent.com/sushiguo/youyou/main/tvbox/own/ziyong-dancang2.json |
-| ziyong-duocang.json | 自用多仓 | https://raw.githubusercontent.com/sushiguo/youyou/main/tvbox/own/ziyong-duocang.json |
-| zyplayer.json | ZyPlayer 格式配置 | https://raw.githubusercontent.com/sushiguo/youyou/main/tvbox/own/zyplayer.json |
-| qixing-baohe.txt | 七星宝盒仓库 | https://raw.githubusercontent.com/sushiguo/youyou/main/tvbox/qixing-baohe.txt |
-| shiguang-duocang.txt | 拾光多仓 | https://raw.githubusercontent.com/sushiguo/youyou/main/tvbox/shiguang-duocang.txt |
-| ziyong-live.m3u | 自用直播（M3U） | https://raw.githubusercontent.com/sushiguo/youyou/main/tvbox/own/ziyong-live.m3u |
-| ziyong-live-cang.json | 自用直播仓库（21 组聚合） | https://raw.githubusercontent.com/sushiguo/youyou/main/tvbox/own/ziyong-live-cang.json |
-| ziyong-live-qingtian.txt | 自用直播·晴天源 | https://raw.githubusercontent.com/sushiguo/youyou/main/tvbox/own/ziyong-live-qingtian.txt |
-| ziyong-live-youguan.txt | 自用直播·油管源 | https://raw.githubusercontent.com/sushiguo/youyou/main/tvbox/own/ziyong-live-youguan.txt |
-| tvbox/own/live.txt | 自用直播列表（TXT，326 行） | https://raw.githubusercontent.com/sushiguo/youyou/main/tvbox/own/live.txt |
-| live.txt | 直播列表（含 YouTube 频道，368 行） | https://raw.githubusercontent.com/sushiguo/youyou/main/subscriptions/live/live.txt |
-| child-animation.txt | 动画剧集（1460 行） | https://raw.githubusercontent.com/sushiguo/youyou/main/subscriptions/live/child-animation.txt |
+| ziyong-yuan.json | 自用源（点播 + 直播 + 搜索，本机原文件名「自用源」） | https://raw.githubusercontent.com/sushiguo/you-osc/main/tvbox/own/ziyong-yuan.json |
+| ziyong-dancang.json | 自用单仓 | https://raw.githubusercontent.com/sushiguo/you-osc/main/tvbox/own/ziyong-dancang.json |
+| ziyong-dancang2.json | 自用单仓 2 | https://raw.githubusercontent.com/sushiguo/you-osc/main/tvbox/own/ziyong-dancang2.json |
+| ziyong-duocang.json | 自用多仓 | https://raw.githubusercontent.com/sushiguo/you-osc/main/tvbox/own/ziyong-duocang.json |
+| zyplayer.json | ZyPlayer 格式配置 | https://raw.githubusercontent.com/sushiguo/you-osc/main/tvbox/own/zyplayer.json |
+| qixing-baohe.txt | 七星宝盒仓库 | https://raw.githubusercontent.com/sushiguo/you-osc/main/tvbox/qixing-baohe.txt |
+| shiguang-duocang.txt | 拾光多仓 | https://raw.githubusercontent.com/sushiguo/you-osc/main/tvbox/shiguang-duocang.txt |
+| ziyong-live.m3u | 自用直播（M3U） | https://raw.githubusercontent.com/sushiguo/you-osc/main/tvbox/own/ziyong-live.m3u |
+| ziyong-live-cang.json | 自用直播仓库（21 组聚合） | https://raw.githubusercontent.com/sushiguo/you-osc/main/tvbox/own/ziyong-live-cang.json |
+| ziyong-live-qingtian.txt | 自用直播·晴天源 | https://raw.githubusercontent.com/sushiguo/you-osc/main/tvbox/own/ziyong-live-qingtian.txt |
+| ziyong-live-youguan.txt | 自用直播·油管源 | https://raw.githubusercontent.com/sushiguo/you-osc/main/tvbox/own/ziyong-live-youguan.txt |
+| tvbox/own/live.txt | 自用直播列表（TXT，326 行） | https://raw.githubusercontent.com/sushiguo/you-osc/main/tvbox/own/live.txt |
+| live.txt | 直播列表（含 YouTube 频道，368 行） | https://raw.githubusercontent.com/sushiguo/you-osc/main/subscriptions/live/live.txt |
+| child-animation.txt | 动画剧集（1460 行） | https://raw.githubusercontent.com/sushiguo/you-osc/main/subscriptions/live/child-animation.txt |
 
 两处改动：`ziyong-live-cang` 原文件 21 行里用的是全角逗号，机器读会当格式错误，这里换成半角并改成 `.json`；其余文件未动。
 
