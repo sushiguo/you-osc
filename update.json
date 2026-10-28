@@ -1,9 +1,9 @@
 {
-  "version": "610282115",
-  "version_code": 610282115,
+  "version": "610282239",
+  "version_code": 610282239,
   "package_name": "com.youyou.tvbox.osc",
-  "apk_url": "https://github.com/sushiguo/youyou/releases/download/v610282115/youyou-tv.apk",
-  "sha256": "6653ca6a54ea1332a94839514f2bdb265accbcc741800bb77221093c10a7d029",
-  "size": 72148715,
+  "apk_url": "https://github.com/sushiguo/you-osc/releases/download/v610282239/youyou-tv.apk",
+  "sha256": "94096a1f6e0f745bf99895870e0b75574492ed2cb44dfc6775bbee9a435edf42",
+  "size": 72148599,
   "signer_sha256": "ad3d55c6e601172003ddd879f3f793030b0e6ec001d3da46f624e18f14d4ce1f"
 }
