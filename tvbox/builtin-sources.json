@@ -1,0 +1,42 @@
+{
+  "vod": [
+    {
+      "name": "饭太硬（在线）",
+      "url": "http://www.饭太硬.cc/tv"
+    },
+    {
+      "name": "王二小（在线）",
+      "url": "http://tvbox.xn--4kq62z5rby2qupq9ub.top/"
+    },
+    {
+      "name": "全·融合源（565）",
+      "url": "assets://subscriptions/Cfg-610212349-quan-ronghe.json"
+    },
+    {
+      "name": "壁·融合源（223）",
+      "url": "assets://subscriptions/Cfg-610212349-bi-ronghe.json"
+    },
+    {
+      "name": "新源·点播（273源）",
+      "url": "assets://subscriptions/Cfg-610231441-xin-vod.json"
+    }
+  ],
+  "live": [
+    {
+      "name": "IPTV4 直播",
+      "url": "https://live.zbds.top/tv/iptv4.m3u"
+    },
+    {
+      "name": "全·直播频道（21组13964频道）",
+      "url": "assets://subscriptions/Live-610212302-quan-21g13964ch.m3u"
+    },
+    {
+      "name": "壁·直播频道（8组6750频道）",
+      "url": "assets://subscriptions/Live-610212302-bi-8g6750ch.m3u"
+    },
+    {
+      "name": "新源·直播频道（230）",
+      "url": "assets://subscriptions/Live-610231441-new.m3u"
+    }
+  ]
+}
