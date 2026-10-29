@@ -1,9 +1,21 @@
 {
-  "version": "610282239",
-  "version_code": 610282239,
+  "versionCode": 610291200,
+  "versionName": "610291200",
+  "apkUrl": "https://github.com/sushiguo/you-osc/releases/download/v610291200/youyou-tv.apk",
+  "size": 72173459,
+  "sha256": "6ef8caa7051e06165a760eea3a89a433842756f23648eb1a24d0dc2b34119fb7",
+  "changelog": "优优电视 610291200\n功能改进与问题修复。详细记录可通过项目地址查看。",
+  "publishedAt": "2026-10-29 13:09:05",
+  "variants": [
+    {
+      "abi": "universal",
+      "url": "https://github.com/sushiguo/you-osc/releases/download/v610291200/youyou-tv.apk",
+      "size": 72173459,
+      "sha256": "6ef8caa7051e06165a760eea3a89a433842756f23648eb1a24d0dc2b34119fb7"
+    }
+  ],
+  "version": "610291200",
+  "version_code": 610291200,
   "package_name": "com.youyou.tvbox.osc",
-  "apk_url": "https://github.com/sushiguo/you-osc/releases/download/v610282239/youyou-tv.apk",
-  "sha256": "94096a1f6e0f745bf99895870e0b75574492ed2cb44dfc6775bbee9a435edf42",
-  "size": 72148599,
   "signer_sha256": "ad3d55c6e601172003ddd879f3f793030b0e6ec001d3da46f624e18f14d4ce1f"
 }
