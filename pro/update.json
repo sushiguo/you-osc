@@ -1,21 +1,21 @@
 {
-  "versionCode": 610291533,
-  "versionName": "610291533",
-  "apkUrl": "https://github.com/sushiguo/you-osc/releases/download/v610291533/youyou-tv-pro.apk",
-  "size": 70986461,
-  "sha256": "5f87340da0bc929d907af77c80981bbbe40a81bdcfe8a5ce6d3f427fcd75b473",
-  "changelog": "优优电视 610291533\n\n2026/10/29 优优电视 v610291533： 一套代码改成「一体三面」，三个面并存安装、互不覆盖：优优电视plus（com.youyou.tvbox.osc.plus）装全内容，优优电视pro（com.youyou.tvbox.osc.pro）只装壁类内容，优优电视（com.youyou.tvbox.osc.tv）只装菲类内容，应用名、图标、内置订阅与直播源都按面各带一份，装哪个面就只有那个面的源，不必再进去手动删。三面共用同一套代码与签名，打包时用 -Pface=plus|pro|base 选择（-Pdevice=main/-Pdevice=tv 仍可用作别名），构建命令各写一行在 README「一体三面」一节；内容按目录切开（src/full、src/bi、src/tv），src/common/assets 里的公共解析器与数据三面共用，新增一面只要补一个目录，不需要再加变体。应用内更新也随之按面分家：三面各有自己的更新清单（main/plus/update.json、main/pro/update.json、main/base/update.json）与 Release 资产（youyou-tv-plus.apk 等），每个面装上都只认自己的包名和自己的清单，不会把别的面的包当成本应用的升级，过去「菲面不参与线上更新」的限制随这次拆分一并解除。发布脚本与自动发布流程同步认三面，一次可以只发一个面。版本号自本期起接上前一版 610291200 的全部改动，并新出三面首个版本。",
-  "publishedAt": "2026-10-29 16:05:30",
+  "versionCode": 610291645,
+  "versionName": "610291645",
+  "apkUrl": "https://github.com/sushiguo/you-osc/releases/download/v610291645/youyou-tv-pro.apk",
+  "size": 72955564,
+  "sha256": "21e2b41a21d748aedf04ee3e2e6e9bf992b91cd7a38064890df547c8439881cd",
+  "changelog": "优优电视 610291645\n\n2026/10/29 优优电视 v610291645： 内置源换成新一轮融合：全 244 源 / 173 组 69962 频道、壁 103 源 / 127 组 58811 频道、菲 141 源 / 46 组 11151 频道，全 = 壁 + 菲（站点与直播分组都互不重叠，源数 103 + 141 = 244、频道数 58811 + 11151 = 69962 正好对上）。按面分发：plus 装全，pro 装壁，优优电视装菲，plus 不再重复挂一份壁·融合源。三份融合配置自带的 lives 段在打包时剥掉——它与同批 M3U 是同一份数据，占整份文件的 95%，留着等于同一批 82892 / 63324 / 19568 条频道存两遍，启动时还要把十几 MB 的配置整棵解析成 JSON 树；点播配置因此从 11.9MB / 9.8MB / 2.2MB 降到 293KB / 121KB / 194KB，直播仍由 M3U 提供。饭太硬、王二小、新源·点播 273、IPTV4、新源·直播 230 继续保留。pro 面图标换成「呦呦鹿鸣·仙鹿抬头远望」。校验：三份配置无重复 key、无缺 name/key/api 的站点、type3 站点全部是 .py/.js（不用另配 jar），wall 标记与所在面一致；三份 M3U 无 BOM、无控制字符、无重复地址，每条 EXTINF 都有对应地址与 group-title。已知小瑕疵：壁面有 3 个站点、菲面有 4 个站点的 group 标签写反（本站点 wall 标记是对的），该字段界面不使用，未改源数据。本版承接 610291533 的全部改动。",
+  "publishedAt": "2026-10-29 17:23:01",
   "variants": [
     {
       "abi": "universal",
-      "url": "https://github.com/sushiguo/you-osc/releases/download/v610291533/youyou-tv-pro.apk",
-      "size": 70986461,
-      "sha256": "5f87340da0bc929d907af77c80981bbbe40a81bdcfe8a5ce6d3f427fcd75b473"
+      "url": "https://github.com/sushiguo/you-osc/releases/download/v610291645/youyou-tv-pro.apk",
+      "size": 72955564,
+      "sha256": "21e2b41a21d748aedf04ee3e2e6e9bf992b91cd7a38064890df547c8439881cd"
     }
   ],
-  "version": "610291533",
-  "version_code": 610291533,
+  "version": "610291645",
+  "version_code": 610291645,
   "package_name": "com.youyou.tvbox.osc.pro",
   "signer_sha256": "ad3d55c6e601172003ddd879f3f793030b0e6ec001d3da46f624e18f14d4ce1f"
 }
